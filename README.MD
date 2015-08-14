@@ -11,15 +11,17 @@ This project creates a website that allows a user to submit a string and a seper
 
 Clone repository from GitHub.
 Run $ composer install.
+Make sure PHP server is running.
+Webpage can be found at http://localhost:8000/
 Enjoy.
 
 ##Technologies Used
 
-PHP, html, css, silex, twig
+PHP, HTML5, CSS3, Silex, Twig, PHPUnit
 
 ###Legal
 
-Copyright (c) 2015 {List of contribtors}
+Copyright (c) 2015, Jose Torres
 
 This software is licensed under the MIT license.
 
