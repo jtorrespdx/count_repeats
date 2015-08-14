@@ -23,6 +23,7 @@
         //get the inputs from the form
         $phrase = $_GET['phrase'];
         $word = $_GET['word'];
+        
     })
 
     return $app;
