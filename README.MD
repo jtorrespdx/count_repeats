@@ -5,7 +5,7 @@
 
 ##Description
 
-This project creates a website that allows a user to submit a string and a seperate word. Then the user is takent to a second page that shows the user how many times their "word" was repeated in their string.
+This project creates a website that allows a user to submit a string and a seperate word. Then the user is taken to a second page that shows the user how many times their "word" was found in their string.
 
 ##Setup
 
