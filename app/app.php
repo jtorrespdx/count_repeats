@@ -11,5 +11,8 @@
     ));
     //this is the route to the homepage.
     $app->get("/", function() use ($app) {
-        return $app['twig']->render('form.twig');
+        return $app['twig']->render('form.html.twig');
     });
+
+    return $app;
+?>
