@@ -1,0 +1,39 @@
+
+-------------------- FIRST CASE-----------------------------
+WHAT IT DOES: It compares input word to input string and counts the matching word.
+INPUT STRING: "a"
+INPUT WORD: "a"
+OUTPUT: "1"
+
+--------------------  SECOND CASE-----------------------------
+WHAT IT DOES: It compares the input word to the input string then counts the matching word, shows if they do not match.
+INPUT STRING: "a"
+INPUT WORD: "b"
+OUTPUT: "0"
+
+--------------------  THIRD CASE-----------------------------
+WHAT IT DOES: It compares the input word to the input string then counts the matching word.
+INPUT STRING: "be be"
+INPUT WORD: "be"
+OUTPUT: "2"
+
+
+-------------------- FOURTH CASE-----------------------------
+WHAT IT DOES: It compares the input word to the input string then finds and counts the matches.
+INPUT STRING:"be a be"
+INPUT WORD: "be"
+OUTPUT: "be"
+
+-------------------- FIFTH CASE-----------------------------
+WHAT IT DOES:It compares the input word to the input string then finds and counts matches words of exact length.
+INPUT STRING: "be b be bee"
+INPUT WORD: "be"
+OUTPUT: "2"
+
+
+
+-------------------- SIXTH CASE-----------------------------
+WHAT IT DOES: It compares the input word the the input string of mixed case and counts the matching words.
+INPUT STRING: "Be A BE bE"
+INPUT WORD: "be"
+OUTPUT: "3"
