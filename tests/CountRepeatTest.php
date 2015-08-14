@@ -94,5 +94,22 @@
             //Assert
             $this->assertEquals(3, $result);
         }
+
+        //CASE 7 Final test. Finds 0 matches within the phrase. Count 0.
+        function test_count_repeats_7()
+        {
+            //Arrange
+            $test_CountRepeats = new RepeatCounter;
+            $phrase = "Be a bee for me";
+            $word = "no";
+
+            //Act
+            $result = $test_CountRepeats->countRepeats($phrase, $word);
+
+            //Assert
+            $this->assertEquals(0, $result);
+        }
+
+
     }
 ?>
