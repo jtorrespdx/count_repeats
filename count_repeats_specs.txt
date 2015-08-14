@@ -17,7 +17,6 @@ INPUT STRING: "be be"
 INPUT WORD: "be"
 OUTPUT: "2"
 
-
 -------------------- FOURTH CASE-----------------------------
 WHAT IT DOES: It compares the input word to the input string then finds and counts the matches.
 INPUT STRING:"be a be"
@@ -30,10 +29,14 @@ INPUT STRING: "be b be bee"
 INPUT WORD: "be"
 OUTPUT: "2"
 
-
-
 -------------------- SIXTH CASE-----------------------------
 WHAT IT DOES: It compares the input word the the input string of mixed case and counts the matching words.
 INPUT STRING: "Be A BE bE"
 INPUT WORD: "be"
 OUTPUT: "3"
+
+--------------------SEVENTH CASE---------------------------
+WHAT IT DOES: It compares teh inputs and if no matches are found, returns a "0".
+INPUT STRING: "Be a bee for me"
+INPUT WORD: "no"
+OUTPUT: "0"
