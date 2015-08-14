@@ -27,7 +27,7 @@
         $repeat_counter_number = $repeat_counter->countRepeats($phrase, $word);
 
         //shows us the results page
-        return $app['twig']->render('results.html.twig', $repeat_counter);
+        return $app['twig']->render('results.html.twig', array($repeat_counter));
 
     });
 
