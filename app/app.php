@@ -15,7 +15,7 @@
     });
 
     //this is the route to the resuts page.
-    $app->get("results", function() use ($app) {
+    $app->get("/results", function() use ($app) {
 
         //new counter
         $repeat_counter = new RepeatCounter;
@@ -23,8 +23,14 @@
         //get the inputs from the form
         $phrase = $_GET['phrase'];
         $word = $_GET['word'];
-        
-    })
+
+        $repeat_counter_number = $repeat_counter->countRepeats($phrase, $word);
+
+        //shows us the results page
+        return $app['twig']->render('results.html.twig', $repeat_counter);
+
+    });
+
 
     return $app;
 ?>
