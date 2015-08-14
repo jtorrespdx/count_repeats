@@ -20,17 +20,15 @@
         //new counter
         $repeat_counter = new RepeatCounter;
 
-        //get the inputs from the form
+        //gets the inputs from the form and the results
         $phrase = $_GET['phrase'];
         $word = $_GET['word'];
-
         $repeat_counter_number = $repeat_counter->countRepeats($phrase, $word);
 
         //shows us the results page
-        return $app['twig']->render('results.html.twig', array($repeat_counter));
+        return $app['twig']->render('results.html.twig', array('count' => $repeat_counter_number));
 
     });
-
 
     return $app;
 ?>
