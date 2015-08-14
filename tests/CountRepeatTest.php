@@ -79,5 +79,20 @@
             //Assert
             $this->assertEquals(2, $result);
         }
+
+        //CASE 6 Finds matches within a phrase of mixedcaps. Returns a count of 3.
+        function test_count_repeats_6()
+        {
+            //Arrange
+            $test_CountRepeats = new RepeatCounter;
+            $phrase = "Be A BE bE";
+            $word = "be";
+
+            //Act
+            $result = $test_CountRepeats->countRepeats($phrase, $word);
+
+            //Assert
+            $this->assertEquals(3, $result);
+        }
     }
 ?>

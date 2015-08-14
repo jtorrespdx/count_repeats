@@ -36,7 +36,7 @@ INPUT WORD: "be"
 OUTPUT: 3
 
 --------------------SEVENTH CASE---------------------------
-WHAT IT DOES: It compares teh inputs and if no matches are found, returns a "0".
+WHAT IT DOES: It compares the inputs and if no matches are found, returns a "0".
 INPUT STRING: "Be a bee for me"
 INPUT WORD: "no"
 OUTPUT: 0
