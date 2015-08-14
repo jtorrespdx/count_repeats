@@ -14,5 +14,16 @@
         return $app['twig']->render('form.html.twig');
     });
 
+    //this is the route to the resuts page.
+    $app->get("results", function() use ($app) {
+
+        //new counter
+        $repeat_counter = new RepeatCounter;
+
+        //get the inputs from the form
+        $phrase = $_GET['phrase'];
+        $word = $_GET['word'];
+    })
+
     return $app;
 ?>
